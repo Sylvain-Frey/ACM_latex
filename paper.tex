@@ -1,0 +1,56 @@
+\documentclass{styles/acm_proc_article-sp}
+
+\graphicspath{{pics/}}
+
+\title{Title}
+\subtitle{subtitle}
+
+\numberofauthors{3} 
+
+\author{
+  % Don't ever slip an empty line in this section!
+  \alignauthor
+  First Author\\
+    \affaddr{First Address}\\
+    \affaddr{First Address}\\
+    \affaddr{First Address}\\
+    \email{first@email}
+  \alignauthor
+  Second Author\\
+    \affaddr{Second Address}\\
+    \affaddr{Second Address}\\
+    \affaddr{Second Address}\\
+    \email{second@email}
+  %\and % use '\and' if you need 'another row' of author names
+  \alignauthor
+  Third Author\\
+    \affaddr{Third Address}\\
+    \affaddr{Third Address}\\
+    \affaddr{Third Address}\\
+    \email{third@email}
+}
+
+
+\date{\today}
+
+
+\begin{document}
+
+\maketitle
+\begin{abstract}
+  Abstract text.
+\end{abstract}
+
+
+\category{?.?}{category}{category}
+
+\terms{Term}
+
+\keywords{Keywords}
+
+\input{sections/section.tex}
+
+\bibliographystyle{abbrv}
+\bibliography{bib/bib} 
+
+\end{document}
